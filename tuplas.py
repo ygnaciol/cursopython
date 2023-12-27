@@ -1,0 +1,16 @@
+
+print("Las tuplas son solo de lectura, son inmutables")
+mi_tupla=()
+mi_otra_tupla=()
+mi_tupla=(55,1.84,"Ignacio","Lorduy")
+print(mi_tupla)
+print("imprime un elemento concreto de la tupla")
+print(mi_tupla[0])
+print(mi_tupla[-1])
+print("cuanta los elemnetos que coinciden dentro de la tupla")
+print(mi_tupla.count("Ignacio"))
+print("saber el indice de un elemento dentro de una tupla,buscamos Ignacio")
+print(mi_tupla.index("Ignacio"))
+mi_tercera_tupla = mi_tupla+ mi_otra_tupla
+print("Se puede crear una tupla con la suma de otras 2 tuplas")
+print(mi_tercera_tupla)
